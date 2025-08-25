@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.encabezado {
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subtitulo {
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texto-intro {
+    margin-left: 100px;
+    margin-right: 100px;
+    white-space: pre-line;
+}
+
+.nacimiento {
+    white-space: pre-line;
+}
+
+.enana-roja {
+    white-space: pre-line;
+}
