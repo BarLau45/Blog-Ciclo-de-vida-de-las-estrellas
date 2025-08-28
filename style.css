@@ -1,28 +1,70 @@
 body {
-    background-color: black;
+    background-image: url('imagenes/stars.png');
+    background-color: #080808;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+    font-size: larger;
+    width: 90%;
+    /*margin-left: 100px;*/
+    margin-top: 20px;
+    margin-left: 120px;
 }
 
 .encabezado {
     text-align: center;
 }
 
+header {
+    width: 60%;
+}
+
+#barra-superior {
+    display: flex;
+    width: 100%;
+}
+
+#icono-sol {
+    margin-top: 20px;
+}
+
 .titulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
 }
 
 .subtitulo {
     color:whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30px;
+    font-size: larger;
+}
+
+#navegacion {
+    width: 50%;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.elemnav {
+    margin-right: 20px;
+    width: 100%;
 }
 
 .texto-intro {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 120px;
+    width: 100%;
     white-space: pre-line;
+    display: contents;
+}
+
+.Vega {
+    height: auto;
+    width: 600px;
+    float: right;
+    margin-left: 1.4em;
 }
 
 .nacimiento {
